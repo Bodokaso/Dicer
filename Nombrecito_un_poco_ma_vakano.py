@@ -22,8 +22,8 @@ while is_playing:
       print("el valor ingresado no es valido, intente nuevamente.")
       break
     inp_2 = int(input("Ingrese la cantidad de veces que desea rolear :"))
-    for rand_num in [random.randrange(1, inp_1) for i in range(inp_2)]:
-      print(rand_num)
+    for i in range(inp_2):
+        print(random.randrange(1, inp_1))
 
     inp_3 = input("Desea continuar? (y/n) ")
     if inp_3 == "y":
